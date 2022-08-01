@@ -12,11 +12,14 @@ Provisioning resources on AWS using Terraform.
 
 * AWS
 * Terraform
+* AWS CLI
 
 ### Executing program
 
 * Have an AWS Account and necessary permissions.
+* Configure with AWS account using aws cli.
 * Install Terraform.
+* Execute main.tf file.
 * The nginx server starts on port 8080.
 ```
 terraform init
